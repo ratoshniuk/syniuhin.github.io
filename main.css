@@ -1,0 +1,42 @@
+.black-body {
+  background: #000000
+}
+
+.my-card {
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5rem;
+  padding: 10px;
+  width: 25rem;
+}
+
+.my-face {
+  height: auto;
+  margin-top: 20%;
+}
+
+.my-name {
+  margin-top: .5rem;
+}
+
+.my-info-container {
+  margin-top: .5rem;
+}
+
+.my-social-icon {
+  width: auto;
+  height: 1.5rem;
+}
+
+.my-social-icon:hover {
+  transform: scale(1.5);
+}
+
+.my-linkz {
+  margin-top: .5rem;
+  display: flex;
+}
+
+.my-linkz > * {
+  flex: 1 1 auto;
+}
