@@ -1,16 +1,20 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .black-body {
   background: #000000
 }
 
 .my-card {
   border: 0px;
-  font-family: 'Montserrat', sans-serif;
   margin-top: 5rem;
   padding: 10px;
-  width: 25rem;
+  width: 27rem;
 }
 
 .my-face {
+  border: 1px black solid;
   height: auto;
   margin-top: 20%;
 }
@@ -23,9 +27,17 @@
   margin-top: .5rem;
 }
 
+.my-hr {
+  border: .2px solid rgba(0, 0, 0, .5);
+  margin-bottom: .3rem;
+  margin-top: .3rem;
+  width: 100%;
+}
+
 .my-social-icon {
   width: auto;
   height: 1.5rem;
+  transition: all .1s ease;
 }
 
 .my-social-icon:hover {
@@ -33,7 +45,6 @@
 }
 
 .my-linkz {
-  margin-top: .5rem;
   display: flex;
 }
 
@@ -42,16 +53,18 @@
 }
 
 .trendy-link {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-image: linear-gradient(120deg, #fac384 0%, #f48f8f 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
   color: rgb(41, 43, 44);
   cursor: pointer;
-  transition: background-size 0.25s ease-in;
+  padding: 2px 2px 0px 2px;
+  transition: background-size 0.25s ease-in, color 0.2s ease-in;
 }
 
 .trendy-link:hover {
   background-size: 100% 88%;
+  color: white;
   text-decoration: inherit;
 }
