@@ -2,22 +2,23 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.black-body {
-  background: #000000
+.my-container {
+  margin-top: 5rem;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-.my-card {
-  border: 0px;
-  margin-top: 5rem;
-  max-width: 100%;
-  padding: 10px;
-  width: 27rem;
+.my-content {
+  max-width: 27rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .my-face {
   border: 1px black solid;
   height: auto;
   margin-top: 20%;
+  width: 15rem;
 }
 
 .my-name {
