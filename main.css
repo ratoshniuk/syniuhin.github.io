@@ -32,7 +32,7 @@ body {
 
 .my-hr {
   border: .2px solid rgba(0, 0, 0, .5);
-  margin-bottom: .3rem;
+  margin-bottom: .4rem;
   margin-top: .3rem;
   width: 100%;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .trendy-link {
-  background-image: linear-gradient(120deg, #fac384 0%, #f48f8f 100%);
+  background-image: linear-gradient(120deg, #5effc1 0%, #8bdbd0 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
