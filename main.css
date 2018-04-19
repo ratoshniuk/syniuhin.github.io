@@ -5,14 +5,14 @@ body {
 }
 
 .my-container {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-top: 5rem;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .my-content {
-  max-width: 27rem;
+  max-width: 25rem;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -53,8 +53,8 @@ body {
   display: flex;
 }
 
-.my-linkz > * {
-  flex: 1 1 auto;
+.my-linkz-left {
+  flex: 1 1000 auto;
 }
 
 .trendy-link {
@@ -72,4 +72,17 @@ body {
   background-size: 100% 88%;
   color: white;
   text-decoration: inherit;
+}
+
+.social-linkz {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-linkz > * {
+  margin-right: 15px;
+}
+
+.social-linkz > *:last-child {
+  margin-right: 0px;
 }
